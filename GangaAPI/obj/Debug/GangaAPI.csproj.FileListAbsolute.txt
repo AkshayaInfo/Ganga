@@ -1,0 +1,4 @@
+F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\bin\Debug\GangaAPI.dll
+F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\bin\Debug\GangaAPI.pdb
+F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\obj\Debug\GangaAPI.dll
+F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\obj\Debug\GangaAPI.pdb

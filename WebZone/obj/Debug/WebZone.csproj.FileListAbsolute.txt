@@ -1,0 +1,5 @@
+F:\Prasanth\Development\GITHUB\Ganga\WebZone\bin\WebZone.dll
+F:\Prasanth\Development\GITHUB\Ganga\WebZone\bin\WebZone.pdb
+F:\Prasanth\Development\GITHUB\Ganga\WebZone\obj\Debug\WebZone.csprojResolveAssemblyReference.cache
+F:\Prasanth\Development\GITHUB\Ganga\WebZone\obj\Debug\WebZone.dll
+F:\Prasanth\Development\GITHUB\Ganga\WebZone\obj\Debug\WebZone.pdb
