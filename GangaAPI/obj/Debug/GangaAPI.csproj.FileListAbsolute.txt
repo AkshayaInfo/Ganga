@@ -2,3 +2,8 @@ F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\bin\Debug\GangaAPI.dll
 F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\bin\Debug\GangaAPI.pdb
 F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\obj\Debug\GangaAPI.dll
 F:\Prasanth\Development\GITHUB\Ganga\GangaAPI\obj\Debug\GangaAPI.pdb
+D:\Development\Ganga\GangaAPI\bin\Debug\GangaAPI.dll
+D:\Development\Ganga\GangaAPI\bin\Debug\GangaAPI.pdb
+D:\Development\Ganga\GangaAPI\obj\Debug\GangaAPI.dll
+D:\Development\Ganga\GangaAPI\obj\Debug\GangaAPI.pdb
+D:\Development\Ganga\GangaAPI\obj\Debug\GangaAPI.csprojResolveAssemblyReference.cache

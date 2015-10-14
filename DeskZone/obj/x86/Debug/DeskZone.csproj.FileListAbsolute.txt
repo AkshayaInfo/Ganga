@@ -1,0 +1,8 @@
+D:\Development\Ganga\DeskZone\bin\Debug\DeskZone.exe
+D:\Development\Ganga\DeskZone\bin\Debug\DeskZone.pdb
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.fclsMain.resources
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.Properties.Resources.resources
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.csproj.GenerateResource.Cache
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.exe
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.pdb
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.fclsCompany.resources
