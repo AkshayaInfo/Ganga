@@ -15,5 +15,31 @@ namespace DeskZone
         {
             InitializeComponent();
         }
+
+        private void dgvAttributes_CellBeginEdit(object sender, DataGridViewCellCancelEventArgs e)
+        {
+            if (e.ColumnIndex == 1)
+            {
+                if (Convert.ToString(dgvAttributes.SelectedCells[0].Value) == "")
+                {
+                    dgvAttributes.Rows[e.RowIndex].Cells[0].Value = e.RowIndex + 1;
+                }
+            }
+        }
+
+        private void dgvProcesses_CellBeginEdit(object sender, DataGridViewCellCancelEventArgs e)
+        {
+            if (e.ColumnIndex == 1)
+            {
+                if (Convert.ToString(dgvProcesses.SelectedCells[0].Value) == "")
+                {
+                    dgvProcesses.Rows[e.RowIndex].Cells[0].Value = e.RowIndex + 1;
+                }
+            }
+        }
+
+       
+       
+        
     }
 }

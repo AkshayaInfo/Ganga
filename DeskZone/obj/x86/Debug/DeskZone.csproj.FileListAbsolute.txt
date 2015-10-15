@@ -6,3 +6,6 @@ D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.csproj.GenerateResource.Cac
 D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.exe
 D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.pdb
 D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.fclsCompany.resources
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.csprojResolveAssemblyReference.cache
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.fclsProductCategory.resources
+D:\Development\Ganga\DeskZone\obj\x86\Debug\DeskZone.fclsSearch.resources

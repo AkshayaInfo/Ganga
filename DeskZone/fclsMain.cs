@@ -27,5 +27,12 @@ namespace DeskZone
             fcls.MdiParent = this;
             fcls.Show();
         }
+
+        private void productCategoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fclsProductCategory fcls = new fclsProductCategory();
+            fcls.MdiParent = this;
+            fcls.Show();
+        }
     }
 }

@@ -41,9 +41,10 @@
             this.paymentTermsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.expenseTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.brandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.productCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.brandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.productCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.warehouseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountHeadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,7 +100,6 @@
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -204,23 +204,30 @@
             this.productToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.productToolStripMenuItem.Text = "Product";
             // 
+            // unitToolStripMenuItem
+            // 
+            this.unitToolStripMenuItem.Name = "unitToolStripMenuItem";
+            this.unitToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.unitToolStripMenuItem.Text = "Unit";
+            // 
             // brandToolStripMenuItem
             // 
             this.brandToolStripMenuItem.Name = "brandToolStripMenuItem";
             this.brandToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.brandToolStripMenuItem.Text = "Brand";
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
+            this.toolStripMenuItem1.Text = "Material Type";
+            // 
             // productCategoryToolStripMenuItem
             // 
             this.productCategoryToolStripMenuItem.Name = "productCategoryToolStripMenuItem";
             this.productCategoryToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.productCategoryToolStripMenuItem.Text = "Product Category";
-            // 
-            // unitToolStripMenuItem
-            // 
-            this.unitToolStripMenuItem.Name = "unitToolStripMenuItem";
-            this.unitToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.unitToolStripMenuItem.Text = "Unit";
+            this.productCategoryToolStripMenuItem.Click += new System.EventHandler(this.productCategoryToolStripMenuItem_Click);
             // 
             // warehouseToolStripMenuItem
             // 
@@ -625,12 +632,6 @@
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.Size = new System.Drawing.Size(45, 22);
             this.toolStripButton6.Text = "Exit";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
-            this.toolStripMenuItem1.Text = "Material Type";
             // 
             // fclsMain
             // 
