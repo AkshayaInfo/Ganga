@@ -50,11 +50,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fclsAttributeMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fclsAttributeMaster.Designer.cs">
+      <DependentUpon>fclsAttributeMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="fclsCompany.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fclsCompany.Designer.cs">
       <DependentUpon>fclsCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fclsJobCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fclsJobCard.Designer.cs">
+      <DependentUpon>fclsJobCard.cs</DependentUpon>
     </Compile>
     <Compile Include="fclsMain.cs">
       <SubType>Form</SubType>
@@ -62,11 +74,17 @@
     <Compile Include="fclsMain.Designer.cs">
       <DependentUpon>fclsMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="fclsProductCategory.cs">
+    <Compile Include="fclsProcessMaster.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fclsProductCategory.Designer.cs">
-      <DependentUpon>fclsProductCategory.cs</DependentUpon>
+    <Compile Include="fclsProcessMaster.Designer.cs">
+      <DependentUpon>fclsProcessMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fclsProductCategoryMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fclsProductCategoryMaster.Designer.cs">
+      <DependentUpon>fclsProductCategoryMaster.cs</DependentUpon>
     </Compile>
     <Compile Include="fclsSearch.cs">
       <SubType>Form</SubType>
@@ -76,14 +94,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fclsAttributeMaster.resx">
+      <DependentUpon>fclsAttributeMaster.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fclsCompany.resx">
       <DependentUpon>fclsCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fclsJobCard.resx">
+      <DependentUpon>fclsJobCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fclsMain.resx">
       <DependentUpon>fclsMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fclsProductCategory.resx">
-      <DependentUpon>fclsProductCategory.cs</DependentUpon>
+    <EmbeddedResource Include="fclsProcessMaster.resx">
+      <DependentUpon>fclsProcessMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fclsProductCategoryMaster.resx">
+      <DependentUpon>fclsProductCategoryMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fclsSearch.resx">
       <DependentUpon>fclsSearch.cs</DependentUpon>

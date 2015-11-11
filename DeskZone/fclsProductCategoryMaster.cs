@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace DeskZone
 {
-    public partial class fclsProductCategory : Form
+    public partial class fclsProductCategoryMaster : Form
     {
-        public fclsProductCategory()
+        public fclsProductCategoryMaster()
         {
             InitializeComponent();
         }

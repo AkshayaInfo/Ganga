@@ -30,7 +30,14 @@ namespace DeskZone
 
         private void productCategoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fclsProductCategory fcls = new fclsProductCategory();
+            fclsProductCategoryMaster fcls = new fclsProductCategoryMaster();
+            fcls.MdiParent = this;
+            fcls.Show();
+        }
+
+        private void workOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fclsJobCard fcls = new fclsJobCard();
             fcls.MdiParent = this;
             fcls.Show();
         }

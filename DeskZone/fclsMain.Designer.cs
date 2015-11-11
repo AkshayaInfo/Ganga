@@ -250,31 +250,31 @@
             // accountHeadToolStripMenuItem
             // 
             this.accountHeadToolStripMenuItem.Name = "accountHeadToolStripMenuItem";
-            this.accountHeadToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.accountHeadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.accountHeadToolStripMenuItem.Text = "Account Head";
             // 
             // cashToolStripMenuItem
             // 
             this.cashToolStripMenuItem.Name = "cashToolStripMenuItem";
-            this.cashToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.cashToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cashToolStripMenuItem.Text = "Cash";
             // 
             // bankToolStripMenuItem
             // 
             this.bankToolStripMenuItem.Name = "bankToolStripMenuItem";
-            this.bankToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.bankToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bankToolStripMenuItem.Text = "Bank";
             // 
             // contraToolStripMenuItem
             // 
             this.contraToolStripMenuItem.Name = "contraToolStripMenuItem";
-            this.contraToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.contraToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.contraToolStripMenuItem.Text = "Contra";
             // 
             // journalToolStripMenuItem
             // 
             this.journalToolStripMenuItem.Name = "journalToolStripMenuItem";
-            this.journalToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.journalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.journalToolStripMenuItem.Text = "Journal";
             // 
             // transactionsToolStripMenuItem
@@ -323,8 +323,9 @@
             // workOrderToolStripMenuItem
             // 
             this.workOrderToolStripMenuItem.Name = "workOrderToolStripMenuItem";
-            this.workOrderToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.workOrderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.workOrderToolStripMenuItem.Text = "Work Order";
+            this.workOrderToolStripMenuItem.Click += new System.EventHandler(this.workOrderToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
             // 

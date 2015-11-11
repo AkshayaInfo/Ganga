@@ -1,6 +1,6 @@
 ﻿namespace DeskZone
 {
-    partial class fclsProductCategory
+    partial class fclsProductCategoryMaster
     {
         /// <summary>
         /// Required designer variable.
